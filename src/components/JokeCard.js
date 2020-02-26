@@ -39,7 +39,7 @@ const JokeCard = state => {
       <Header>Chuck Norris</Header>
       {/* <h2>Joke of the day!</h2> */}
       
-        <img src="chuck.jpg" alt="" />
+        <img src="./img/Chuck.jpg" alt="" />
       
       <JokeDiv>
       <Joke>{state.joke}</Joke>
