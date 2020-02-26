@@ -10,7 +10,7 @@ export const getJoke = () => dispatch => {
     // .get(
     //   "https://sv443.net/jokeapi/v2/joke/Programming,Miscellaneous?format=xml&blacklistFlags=nsfw,sexist&type=single"
     // )
-    .get('http://api.icndb.com/jokes/random')
+    .get('https://api.icndb.com/jokes/random')
     .then(response => {
       dispatch({ type: JOKE, payload: response.data.value.joke});
       console.log("response!!!!", response.data.value.joke);
